@@ -37,7 +37,7 @@ header{
 .logo-img{
     width: 70px;
 }
-.company_name{
+.company_name, .surname{
     font-weight: 600;
     font-size: 1.5rem;
 }
@@ -53,9 +53,6 @@ header{
     flex-direction: column;
     gap: 10px;
     /* line-height: 60px; */
-}
-.surname{
-    font-weight: 600;
 }
 main{
     height: 100vh;
