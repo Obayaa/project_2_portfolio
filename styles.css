@@ -32,9 +32,10 @@ main {
     width: 20%;
 }
 
-.role-wrapper{
+.role-wrapper {
     margin-bottom: 2rem;
 }
+
 .image-wrapper {
     display: flex;
     align-items: end;
@@ -73,7 +74,7 @@ main {
     color: white;
 }
 
-.media_links{
+.media_links {
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -85,7 +86,8 @@ main {
 
 .company_name,
 .name,
-span, .red {
+span,
+.red {
     color: var(--primary);
 }
 
