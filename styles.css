@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins';
 }
 
 main {
@@ -12,7 +13,7 @@ main {
   color: white;
   --primary: #ff2b51;
   --secondary: #c0c0c0;
-  padding: 2rem 2rem 0 2rem;
+  padding: 3rem 3rem 0 3rem;
 }
 
 .left {
@@ -23,7 +24,7 @@ main {
 
 .logo-wrapper {
   display: flex;
-  gap: 0.5rem;
+  gap: 1.5rem;
   align-items: center;
 }
 
@@ -34,7 +35,12 @@ main {
 .role-wrapper {
   margin-bottom: 2rem;
 }
-
+.role{
+  font-size: 1.2rem;
+}
+.grey{
+  font-size: 1.1rem;
+}
 .image-wrapper {
   display: flex;
   align-items: end;
@@ -51,15 +57,23 @@ main {
   align-items: end;
 }
 
-.name p {
+.name{
   text-align: right;
-  line-height: 30px;
+  line-height: 40px;
+  font-size: 25px;
+}
+.company_name{
+  font-size: 1rem;
+  letter-spacing: 15px;
+}
+.surname, .grey span, .role, .company_name, .navbar ul a{
+    font-weight: 600;
 }
 
 .navbar ul {
   display: flex;
   flex-direction: column;
-  gap: 5rem;
+  gap: 8rem;
   padding: 1rem;
 }
 
@@ -69,6 +83,7 @@ main {
 }
 
 .navbar ul a {
+  font-size: 1rem;
   text-decoration: none;
   color: white;
 }
@@ -79,6 +94,9 @@ main {
   gap: 1rem;
   margin-bottom: 1rem;
   margin-right: 2rem;
+}
+.media_links i{
+  font-size: 1.5rem;
 }
 
 .company_name,
