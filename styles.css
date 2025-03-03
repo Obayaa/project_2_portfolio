@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 
 main {
@@ -35,10 +35,10 @@ main {
 .role-wrapper {
   margin-bottom: 2rem;
 }
-.role{
+.role {
   font-size: 1.2rem;
 }
-.grey{
+.grey {
   font-size: 1.1rem;
 }
 .image-wrapper {
@@ -57,17 +57,21 @@ main {
   align-items: end;
 }
 
-.name{
+.name {
   text-align: right;
   line-height: 40px;
   font-size: 25px;
 }
-.company_name{
+.company_name {
   font-size: 1rem;
   letter-spacing: 15px;
 }
-.surname, .grey span, .role, .company_name, .navbar ul a{
-    font-weight: 600;
+.surname,
+.grey span,
+.role,
+.company_name,
+.navbar ul a {
+  font-weight: 600;
 }
 
 .navbar ul {
@@ -95,7 +99,7 @@ main {
   margin-bottom: 1rem;
   margin-right: 2rem;
 }
-.media_links i{
+.media_links i {
   font-size: 1.5rem;
 }
 
