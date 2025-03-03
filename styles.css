@@ -47,7 +47,7 @@ main {
 }
 
 .image-wrapper img {
-  max-width: 300px;
+  max-width: 350px;
 }
 
 .right {
@@ -64,7 +64,7 @@ main {
 }
 .company_name {
   font-size: 1rem;
-  letter-spacing: 15px;
+  letter-spacing: 5px;
 }
 .surname,
 .grey span,
